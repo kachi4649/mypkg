@@ -1,0 +1,15 @@
+name: test
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-22.04
+    container: ryuichiueda/ubuntu22.04-ros2:latest #前ページのコンテナを使うという宣言
+    steps:
+      - uses: actions/checkout@v2    #コンテナのカレントディレクトリにリポジトリを配置
+      - name: build and test
+        run: |
+          rsync -av ./ /root/ros2_ws/src/mypkg/    # リポジトリの下をros2_ws下にコピー
+          cd /root/ros2_ws
+          rosdep update                                            #14行目のために必要
+          rosdep install -i --from-path src --rosdistro humble -y  #不要だけど念のため
+          bash -xv ./src/mypkg/test/test.bash /root
