@@ -4,7 +4,8 @@
 # mypkg
 
 ```
-課題2
+課題2提出用
 ```
 
->>>>>>> origin/master
+
+>>>>>>> origin/main
