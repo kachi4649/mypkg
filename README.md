@@ -25,12 +25,12 @@ ros2 run mypkg talker
 ros2 run mypkg listener
 ```
 を実行する。
-## テスト環境
+# テスト環境
 
 * ros2 humble
 * Ubuntu22.04
 
 テストには上田隆一先生のコンテナを使っています。
-## ライセンス
+# ライセンス
 BSD 3-Clause License
 ~
