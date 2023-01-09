@@ -32,5 +32,6 @@ ros2 run mypkg listener
 
 テストには上田隆一先生のコンテナを使っています。
 # ライセンス
-BSD 3-Clause License
+* このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
+* 🄫2022 Takuma Kachi
 ~
