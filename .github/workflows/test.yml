@@ -8,8 +8,8 @@ jobs:
       - uses: actions/checkout@v2
       - name: build and test
         run: |
-          rsync -av ./ /root/ros2_ws/src/mypkg/
-          cd /root/ros2_ws
+          rsync -av ./ /root/mypkg/
+          cd /root/mypkg
           rosdep update                                            
           rosdep install -i --from-path src --rosdistro humble -y
-          bash -xv ./src/mypkg/test/test.bash /root
+          bash -xv ./mypkg/test/test.bash /root
