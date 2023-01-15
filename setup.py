@@ -15,7 +15,7 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='kachi',
+    maintainer='Takuma Kachi',
     maintainer_email='s21c1032vh@s.chibakoudai.jp',
     description='a package for practice',
     license='BSD-3-Clause',
