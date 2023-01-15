@@ -1,0 +1,40 @@
+running egg_info
+creating build/mypkg/mypkg.egg-info
+writing build/mypkg/mypkg.egg-info/PKG-INFO
+writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/takuma/mypkg/build/mypkg/build
+creating /home/takuma/mypkg/build/mypkg/build/lib
+creating /home/takuma/mypkg/build/mypkg/build/lib/mypkg
+copying mypkg/talker.py -> /home/takuma/mypkg/build/mypkg/build/lib/mypkg
+copying mypkg/listener.py -> /home/takuma/mypkg/build/mypkg/build/lib/mypkg
+copying mypkg/__init__.py -> /home/takuma/mypkg/build/mypkg/build/lib/mypkg
+running install
+running install_lib
+creating /home/takuma/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+copying /home/takuma/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/takuma/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+copying /home/takuma/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/takuma/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+copying /home/takuma/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/takuma/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+byte-compiling /home/takuma/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/talker.py to talker.cpython-310.pyc
+byte-compiling /home/takuma/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/listener.py to listener.cpython-310.pyc
+byte-compiling /home/takuma/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/takuma/mypkg/install/mypkg/share/ament_index
+creating /home/takuma/mypkg/install/mypkg/share/ament_index/resource_index
+creating /home/takuma/mypkg/install/mypkg/share/ament_index/resource_index/packages
+copying resource/mypkg -> /home/takuma/mypkg/install/mypkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/takuma/mypkg/install/mypkg/share/mypkg
+copying launch/talk_listen.launch.py -> /home/takuma/mypkg/install/mypkg/share/mypkg
+running install_egg_info
+Copying build/mypkg/mypkg.egg-info to /home/takuma/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /home/takuma/mypkg/install/mypkg/lib/mypkg
+Installing talker script to /home/takuma/mypkg/install/mypkg/lib/mypkg
+writing list of installed files to '/home/takuma/mypkg/build/mypkg/install.log'

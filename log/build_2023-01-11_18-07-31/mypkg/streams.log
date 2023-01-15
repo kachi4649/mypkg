@@ -1,0 +1,46 @@
+[0.821s] Invoking command in '/home/takuma/mypkg': PYTHONPATH=/home/takuma/mypkg/build/mypkg/prefix_override:/home/takuma/mypkg/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/takuma/mypkg/build/mypkg/build install --record /home/takuma/mypkg/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
+[1.041s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.041s]   warnings.warn(
+[1.050s] running egg_info
+[1.051s] creating build/mypkg/mypkg.egg-info
+[1.052s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[1.052s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[1.052s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[1.052s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[1.053s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[1.053s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.087s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.089s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.089s] running build
+[1.090s] running build_py
+[1.090s] creating /home/takuma/mypkg/build/mypkg/build
+[1.091s] creating /home/takuma/mypkg/build/mypkg/build/lib
+[1.091s] creating /home/takuma/mypkg/build/mypkg/build/lib/mypkg
+[1.091s] copying mypkg/talker.py -> /home/takuma/mypkg/build/mypkg/build/lib/mypkg
+[1.091s] copying mypkg/listener.py -> /home/takuma/mypkg/build/mypkg/build/lib/mypkg
+[1.092s] copying mypkg/__init__.py -> /home/takuma/mypkg/build/mypkg/build/lib/mypkg
+[1.092s] running install
+[1.093s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.094s]   warnings.warn(
+[1.094s] running install_lib
+[1.096s] creating /home/takuma/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+[1.096s] copying /home/takuma/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/takuma/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+[1.097s] copying /home/takuma/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/takuma/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+[1.097s] copying /home/takuma/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/takuma/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+[1.098s] byte-compiling /home/takuma/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/talker.py to talker.cpython-310.pyc
+[1.099s] byte-compiling /home/takuma/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/listener.py to listener.cpython-310.pyc
+[1.099s] byte-compiling /home/takuma/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/__init__.py to __init__.cpython-310.pyc
+[1.100s] running install_data
+[1.101s] creating /home/takuma/mypkg/install/mypkg/share/ament_index
+[1.101s] creating /home/takuma/mypkg/install/mypkg/share/ament_index/resource_index
+[1.102s] creating /home/takuma/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[1.102s] copying resource/mypkg -> /home/takuma/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[1.103s] copying package.xml -> /home/takuma/mypkg/install/mypkg/share/mypkg
+[1.103s] copying launch/talk_listen.launch.py -> /home/takuma/mypkg/install/mypkg/share/mypkg
+[1.103s] running install_egg_info
+[1.106s] Copying build/mypkg/mypkg.egg-info to /home/takuma/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[1.107s] running install_scripts
+[1.154s] Installing listener script to /home/takuma/mypkg/install/mypkg/lib/mypkg
+[1.154s] Installing talker script to /home/takuma/mypkg/install/mypkg/lib/mypkg
+[1.155s] writing list of installed files to '/home/takuma/mypkg/build/mypkg/install.log'
+[1.185s] Invoked command in '/home/takuma/mypkg' returned '0': PYTHONPATH=/home/takuma/mypkg/build/mypkg/prefix_override:/home/takuma/mypkg/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/takuma/mypkg/build/mypkg/build install --record /home/takuma/mypkg/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
