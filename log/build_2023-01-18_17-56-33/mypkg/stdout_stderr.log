@@ -1,0 +1,24 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+writing build/mypkg/mypkg.egg-info/PKG-INFO
+writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/takuma/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info' (and everything under it)
+Copying build/mypkg/mypkg.egg-info to /home/takuma/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /home/takuma/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+Installing talker script to /home/takuma/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+writing list of installed files to '/home/takuma/ros2_ws/src/mypkg/build/mypkg/install.log'
