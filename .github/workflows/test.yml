@@ -10,6 +10,6 @@ jobs:
         run: |
           rsync -av ./ /root/ros2_ws/src/mypkg/
           cd /root/ros2_ws
-          rosdep update                                            
+          rosdep update
           rosdep install -i --from-path src --rosdistro humble -y
-          bash -xv ./mypkg/test/test.bash /root
+          bash -xv ./src/mypkg/test/test.bash /root
