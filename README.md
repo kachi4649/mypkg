@@ -1,6 +1,7 @@
 # 課題2提出用
 これまで授業で学んだことをgithub上で見せるため。
 
+![test](https://github.com/kachimegatera/mypkg/.github/workflows/test.yml/badge.svg)
 
 # ノード
 ## talker
